@@ -36,7 +36,7 @@ typedef enum{
 @protocol EGORefreshTableHeaderDelegate;
 @interface EGORefreshTableHeaderView : UIView {
 	
-	id _delegate;
+	id delegate;
 	EGOPullRefreshState _state;
 
 	UILabel *_lastUpdatedLabel;
